@@ -36,8 +36,8 @@ build/
 *.log
 
 # Environment files
-.env
-.env.*
+# .env
+# .env.*
 !.env.example
 
 # IDE files
@@ -56,5 +56,5 @@ Thumbs.db
 .cache/
 
 # Sensitive files (auto-detected)
-.env
+# .env
 
