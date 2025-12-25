@@ -311,4 +311,8 @@
 .border-primary {
     border-color: hsl(0deg 0% 100% / 0%);
 }
+.text-foreground\/80 {
+    color: hsl(0 0% 0%);
+}
+
 @import './styles/action-buttons.css';
