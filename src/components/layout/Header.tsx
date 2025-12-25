@@ -6,7 +6,7 @@ import { Menu, X, ShoppingCart, Leaf, Heart, Search, TreePine } from "lucide-rea
 import { useCartStore } from "@/store/cartStore";
 import { useWishlistStore } from "@/store/wishlistStore";
 import { cn } from "@/lib/utils";
-import { ThemeToggle } from "@/components/ThemeToggle";
+
 import { SearchBar } from "@/components/SearchBar";
 
 export const Header = () => {
@@ -72,9 +72,7 @@ export const Header = () => {
 
           {/* Right Actions */}
           <div className="flex items-center gap-1 sm:gap-3 flex-shrink-0">
-            <div className="scale-90 sm:scale-100">
-              <ThemeToggle />
-            </div>
+
             <Link to="/wishlist" className="relative">
               <Button variant="ghost" size="icon" className="relative hover:bg-gradient-to-br hover:from-green-600/20 hover:to-emerald-700/20 dark:hover:from-green-500/20 dark:hover:to-emerald-600/20">
                 <Heart className="w-4 h-4 sm:w-5 sm:h-5" />
