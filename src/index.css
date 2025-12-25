@@ -311,9 +311,6 @@
 .border-primary {
     border-color: hsl(0deg 0% 100% / 0%);
 }
-.text-foreground\/80 {
-    color: hsl(0deg 0% 0%);
-}
 .text-foreground {
     background: linear-gradient(135deg, #000000, #000000c2, #000000);
     -webkit-text-fill-color: transparent;
