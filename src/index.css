@@ -294,4 +294,8 @@
 .border-border {
     border-color: #000000;
 }
+.hover\:bg-red-500:hover {
+    /* --tw-bg-opacity: 1; */
+    background-color: rgb(255 0 0);
+}
 @import './styles/action-buttons.css';

@@ -675,8 +675,10 @@ export default function ProductDetail() {
                   size="icon"
                   onClick={handleToggleWishlist}
                   className={cn(
-                    isWishlisted && "bg-primary text-primary-foreground hover:bg-primary/90"
+                    isWishlisted && "bg-primary text-primary-foreground hover:bg-primary/90",
+                    "border-red-500 hover:border-red-500 hover:bg-red-500 hover:text-white"
                   )}
+                  style={{ borderColor: 'red' }}
                 >
                   <Heart className={cn("w-5 h-5", isWishlisted && "fill-current")} />
                 </Button>
@@ -818,7 +820,7 @@ export default function ProductDetail() {
               <Button
                 variant={isWishlisted ? "default" : "outline"}
                 size="xl"
-                className="hey"
+                className="hey border-red-500 hover:bg-red-500 hover:text-white"
                 onClick={handleToggleWishlist}
               >
                 <Heart className={cn("w-5 h- mr-2", isWishlisted && "fill-current animate-pulse")} />
