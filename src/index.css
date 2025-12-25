@@ -315,9 +315,8 @@
     color: hsl(0deg 0% 0%);
 }
 .text-foreground {
-     background: linear-gradient(135deg, #1664af, #0c6ecac2, #111ef1);
+    background: linear-gradient(135deg, #000000, #000000c2, #000000);
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
     background-clip: text;
 }
 @import './styles/action-buttons.css';
